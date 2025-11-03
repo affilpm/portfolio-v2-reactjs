@@ -30,7 +30,7 @@ export default function Portfolio() {
     {
       title: 'Wave – Music Streaming Platform',
       description: 'A full-stack music streaming website where artists can upload songs and albums, and users can create playlists and stream music in Apple HLS format.',
-      tech: ['Django', 'React.js', 'Redis', 'Celery', 'AWS S3', 'HLS'],
+      tech: ['Django', 'React.js', 'Redis', 'Celery', 'AWS S3', 'HLS', 'Razorpay', 'Cloudfront', 'Redux.js'],
       link: 'https://github.com/affilpm/Wave',
       impact: 'Major Project',
       gradient: 'from-blue-500/20 to-indigo-500/20',
@@ -39,7 +39,7 @@ export default function Portfolio() {
     {
       title: 'Fruitkha – E-Commerce Platform',
       description: 'An online fruit and vegetable e-commerce platform with cart, wishlist, wallet, coupon management, and payment gateway integration.',
-      tech: ['Django', 'React.js', 'PostgreSQL', 'Razorpay'],
+      tech: ['Django', 'PostgreSQL', 'Razorpay'],
       link: 'https://github.com/affilpm/Fruitkha',
       impact: 'Full-Stack Project',
       gradient: 'from-green-500/20 to-emerald-500/20',
@@ -48,7 +48,7 @@ export default function Portfolio() {
     {
       title: 'CMS Blog Platform',
       description: 'A content management system for blogs with JWT authentication, role-based access, media uploads (AWS S3), and admin analytics dashboard.',
-      tech: ['Django', 'DRF', 'React', 'PostgreSQL', 'AWS S3'],
+      tech: ['Django', 'DRF', 'PostgreSQL', 'AWS S3'],
       link: 'https://github.com/affilpm/cms-blog-django',
       impact: 'Full-Stack Project',
       gradient: 'from-purple-500/20 to-violet-500/20',
@@ -57,7 +57,7 @@ export default function Portfolio() {
     {
       title: 'Task Manager',
       description: 'A productivity app for task management with secure authentication, role-based access, and Dockerized deployment.',
-      tech: ['Django', 'React', 'Redux', 'PostgreSQL', 'Docker'],
+      tech: ['Django', 'React.js', 'Redux.js', 'PostgreSQL', 'Docker'],
       link: 'https://github.com/affilpm/task-manager',
       impact: 'Full-Stack Project',
       gradient: 'from-orange-500/20 to-amber-500/20',
@@ -70,8 +70,8 @@ export default function Portfolio() {
     { name: 'Python', color: 'from-yellow-500 to-amber-500', icon: '🐍' },
     { name: 'Django', color: 'from-green-600 to-emerald-600', icon: '🕸️' },
     { name: 'Django REST Framework', color: 'from-red-500 to-rose-600', icon: '🔥' },
-    { name: 'React', color: 'from-blue-500 to-cyan-500', icon: '⚛️' },
-    { name: 'Redux', color: 'from-purple-500 to-violet-600', icon: '🔁' },
+    { name: 'React.js', color: 'from-blue-500 to-cyan-500', icon: '⚛️' },
+    { name: 'Redux.js', color: 'from-purple-500 to-violet-600', icon: '🔁' },
     { name: 'JavaScript', color: 'from-yellow-400 to-orange-500', icon: '🟨' },
     { name: 'Tailwind CSS', color: 'from-cyan-500 to-teal-500', icon: '💨' },
     { name: 'PostgreSQL', color: 'from-sky-600 to-blue-700', icon: '🐘' },
